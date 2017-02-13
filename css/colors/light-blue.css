@@ -1,0 +1,212 @@
+/* --------------------------------------
+=========================================
+
+COLOR: LIGHT-BLUE
+
+Main color: #3498DB
+
+Deep color: #2980B9
+
+Background color: rgba(52, 152, 219, .8)
+
+=========================================
+----------------------------------------- */
+
+.header-divider {
+    background: #2980B9;
+}
+
+.btn-active {
+    background: #3498DB;
+    border: 2px solid #3498DB;
+}
+
+.btn-active:hover, .btn-active:active, .btn-active:focus {
+    background: #fff;
+    color: #2980B9;
+    border: 2px solid #fff;
+}
+
+.custom-hover:before {
+    background: #fff;
+}
+
+.custom-hover:active, .custom-hover:focus, .custom-hover:hover {
+    color: #2980B9;
+    border: 2px solid #fff;
+}
+
+button.down-btn {
+    background: #3498DB;
+    color: #fff;
+}
+
+button.down-btn:hover, button.down-btn:active, button.down-btn:focus {
+    color: #fff;
+    background: #2980B9;
+    border-color: none;
+}
+
+
+/* =========  Price Button Style  ========= */
+
+.price-btn .custom-btn {
+    border: 2px solid #435966;
+    color: #262525;
+}
+
+
+.price-btn .custom-btn.custom-hover:before {
+    background: #3498DB;
+}
+
+.price-btn .custom-btn.custom-hover:active,
+.price-btn .custom-btn.custom-hover:focus,
+.price-btn .custom-btn.custom-hover:hover {
+    color: #fff;
+    border: 2px solid #3498DB;
+}
+
+
+#contact-section .btn-active:hover, #price .btn-active:hover,
+#contact-section .btn-active:active, #price .btn-active:active,
+#contact-section .btn-active:focus, #price .btn-active:focus {
+    background: #2980B9;
+    color: #fff;
+    border: 2px solid #2980B9;
+    outline: none;
+    outline-offset: 0;
+    box-shadow: none;
+}
+
+/*-------------------------------------------------------
+    NAVBAR SECTION
+-------------------------------------------------------*/
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #2980B9;
+}
+
+/* MENU HOVER */
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #2980B9!important;
+}
+
+.navbar-default .navbar-nav>li>a:after {
+    background-color: #2980B9;
+}
+
+/*-------------------------------------------------------
+    HERO SECTION
+-------------------------------------------------------*/
+
+
+
+/*-------------------------------------------------------
+    CORE-PART SECTION
+-------------------------------------------------------*/
+
+.circle {
+    border: 2px solid #3498DB;
+}
+
+.circle-wrap:hover .circle {
+    color: #fff;
+    border: 2px solid transparent;
+    box-shadow: inset 0px 0px 0px 53px #3498DB;
+     -webkit-box-shadow: inset 0px 0px 0px 53px #3498DB;
+     -moz-box-shadow: inset 0px 0px 0px 53px #3498DB;    
+}
+
+/*-------------------------------------------------------
+    ABOUT SECTION
+-------------------------------------------------------*/
+
+
+.icon-box {
+    border: 1px solid #3498DB;
+    color: #3498DB;
+}
+
+.features-item:hover .icon-box {
+    color: #fff;
+    box-shadow: inset 0px 0px 0px 40px #3498DB;
+    -webkit-box-shadow: inset 0px 0px 0px 40px #3498DB;
+    -moz-box-shadow: inset 0px 0px 0px 40px #3498DB;
+}
+
+/*============================================= 
+                 SCREENSHOTS 
+=============================================*/
+
+#screenshot .owl-theme .owl-controls .owl-page span {
+    background: #2980B9;
+}
+
+/*============================================= 
+                 VIDEO 
+=============================================*/
+
+#video .video-overlay {
+    background:rgba(176, 211, 255, .2);
+}
+
+#video:hover i {
+    opacity: 1;
+    border-color: #2980B9;
+    color: #2980B9;
+}
+
+/*============================================= 
+                 TESTIMONIALS 
+=============================================*/
+
+#testimonials .owl-theme .owl-controls .owl-page span {
+    background: #2980B9;
+}
+
+
+/*============================================= 
+                 PRICE 
+=============================================*/
+
+.pricing-column .inner-box {
+    border: 2px solid #435966;
+}
+
+.pricing-column .active .plan-header {
+    background: #3498DB;
+}
+
+.pricing-column .plan-header {
+    background: #435966;
+}
+
+/*============================================= 
+                 GET THE APP 
+=============================================*/
+
+#get-the-app .btn-active {
+    background: #2980B9;
+    border: 2px solid #2980B9;
+} 
+
+
+#get-the-app .btn-active:hover, #get-the-app .btn-active:active, #get-the-app .btn-active:focus {
+    background: #fff;
+    color: #2980B9;
+    border: 2px solid #fff;
+}
+
+.get-the-app-overlay {
+    background: rgba(52, 152, 219, .8);
+}
+
+/*============================================= 
+                 CONTACT
+=============================================*/
+
+.expanded-contact-form .input-box:focus,.textarea-box:focus {
+    border-color: #2980B9;
+}

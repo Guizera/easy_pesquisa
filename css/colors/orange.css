@@ -1,0 +1,205 @@
+/* --------------------------------------
+=========================================
+
+COLOR: ORANGE
+
+Main color: #F27D23
+
+Deep color: #BF631C 
+
+Background color: rgba(242, 125, 35, .8)
+
+=========================================
+----------------------------------------- */
+
+.header-divider {
+	background: #BF631C;
+}
+
+.btn-active {
+	background: #F27D23;
+    border: 2px solid #F27D23;
+}
+
+.btn-active:hover, .btn-active:active, .btn-active:focus {
+    background: #fff;
+    color: #BF631C;
+    border: 2px solid #fff;
+}
+
+.custom-hover:before {
+	background: #fff;
+}
+
+.custom-hover:active, .custom-hover:focus, .custom-hover:hover {
+    color: #BF631C;
+    border: 2px solid #fff;
+}
+
+button.down-btn {
+	background: #F27D23;
+	color: #fff;
+}
+
+button.down-btn:hover, button.down-btn:active, button.down-btn:focus {
+    color: #fff;
+    background: #BF631C;
+    border-color: none;
+}
+
+
+/* =========  Price Button Style  ========= */
+
+.price-btn .custom-btn {
+    border: 2px solid #435966;
+    color: #262525;
+}
+
+
+.price-btn .custom-btn.custom-hover:before {
+    background: #F27D23;
+}
+
+.price-btn .custom-btn.custom-hover:active,
+.price-btn .custom-btn.custom-hover:focus,
+.price-btn .custom-btn.custom-hover:hover {
+    color: #fff;
+    border: 2px solid #F27D23;
+}
+
+
+#contact-section .btn-active:hover, #price .btn-active:hover,
+#contact-section .btn-active:active, #price .btn-active:active,
+#contact-section .btn-active:focus, #price .btn-active:focus {
+    background: #BF631C;
+    color: #fff;
+    border: 2px solid #BF631C;
+    outline: none;
+    outline-offset: 0;
+    box-shadow: none;
+}
+
+/*-------------------------------------------------------
+    NAVBAR SECTION
+-------------------------------------------------------*/
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #BF631C;
+}
+
+/* MENU HOVER */
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #BF631C!important;
+}
+
+.navbar-default .navbar-nav>li>a:after {
+    background-color: #BF631C;
+}
+
+/*-------------------------------------------------------
+    CORE-PART SECTION
+-------------------------------------------------------*/
+
+.circle {
+	border: 2px solid #F27D23;
+}
+
+.circle-wrap:hover .circle {
+    color: #fff;
+    border: 2px solid transparent;
+    box-shadow: inset 0px 0px 0px 53px #F27D23;
+     -webkit-box-shadow: inset 0px 0px 0px 53px #F27D23;
+     -moz-box-shadow: inset 0px 0px 0px 53px #F27D23;    
+}
+
+/*-------------------------------------------------------
+    ABOUT SECTION
+-------------------------------------------------------*/
+
+.icon-box {
+	border: 1px solid #F27D23;
+	color: #F27D23;
+}
+
+.features-item:hover .icon-box {
+    color: #fff;
+    box-shadow: inset 0px 0px 0px 40px #F27D23;
+    -webkit-box-shadow: inset 0px 0px 0px 40px #F27D23;
+    -moz-box-shadow: inset 0px 0px 0px 40px #F27D23;
+}
+
+/*============================================= 
+                 SCREENSHOTS 
+=============================================*/
+
+#screenshot .owl-theme .owl-controls .owl-page span {
+	background: #BF631C;
+}
+
+/*============================================= 
+                 VIDEO 
+=============================================*/
+
+#video .video-overlay {
+    background:rgba(176, 211, 255, .2);
+}
+
+#video:hover i {
+    opacity: 1;
+    border-color: #BF631C;
+    color: #BF631C;
+}
+
+/*============================================= 
+                 TESTIMONIALS 
+=============================================*/
+
+#testimonials .owl-theme .owl-controls .owl-page span {
+    background: #BF631C;
+}
+
+
+/*============================================= 
+                 PRICE 
+=============================================*/
+
+.pricing-column .inner-box {
+	border: 2px solid #435966;
+}
+
+.pricing-column .active .plan-header {
+    background: #F27D23;
+}
+
+.pricing-column .plan-header {
+    background: #435966;
+}
+
+/*============================================= 
+                 GET THE APP 
+=============================================*/
+
+#get-the-app .btn-active {
+    background: #BF631C;
+    border: 2px solid #BF631C;
+} 
+
+
+#get-the-app .btn-active:hover, #get-the-app .btn-active:active, #get-the-app .btn-active:focus {
+    background: #fff;
+    color: #BF631C;
+    border: 2px solid #fff;
+}
+
+.get-the-app-overlay {
+    background: rgba(242, 125, 35, .8);
+}
+
+/*============================================= 
+                 CONTACT
+=============================================*/
+
+.expanded-contact-form .input-box:focus,.textarea-box:focus {
+    border-color: #BF631C;
+}
