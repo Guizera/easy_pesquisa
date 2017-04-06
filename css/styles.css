@@ -1,50 +1,3 @@
-/*----------------------------------------------------------------------------------------------------------------------
-Project:        Easy Pesquisa
-Version:        1.0
-
-----------------------------------------------------------------------------------------------------------------------*/
-
-/*----------------------------------------------------------------------------------------------------------------------
-          sumario CSS site
-------------------------------------------------------------------------------------------------------------------------
-    1. Master
-
-        1.1. TYPOGRAFIA
-        1.2. ESTILOS
-        1.3. BUTTON ESTILOS
-
-    2. PPRE-LOADER PAGINA
-
-    3. HERO SESSAO
-
-    4. CORE-PART SESSAO
-
-    5. SOBRE SESSAO
-
-        5.1. FEATURES ICON & TEXT 
-        5.2. CELULAR IMAGE
-
-    6. SCREENSHOTS
-
-    7. VIDEO
-
-    8. COMENTARIOS
-
-    9. NEWSLETTER
-
-    10. PLANOS
-
-    11.  DOANLOAD APP 
-
-    12. CONTACT
-
-        10.1. CONTACT FORM
-        10.2. CONTACT ADDRESS
-        10.3. SOCIALS ICONS
-
-    11. FOOTER
-----------------------------------------------------------------------------------------------------------------------*/
-
 
 /*-------------------------------------------------------
     MASTER
@@ -411,7 +364,7 @@ button.down-btn {
 
 
 .navbar-default.menu-shrink {
-    background-color: #ffffff;
+    background-color: #262D3E;
     box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.1);
     padding: 15px 0px;
     width: 100%;
@@ -426,7 +379,7 @@ button.down-btn {
 }
 
 .navbar-default.menu-shrink li a {
-    color: #6d6d6d!important;
+    color: #fff!important;
 }
 
 .menu-top li a {
@@ -534,21 +487,22 @@ header {
     width: 100%;
 }
 .hero-wrap {
-    margin-top: 350px;
+    margin-top: 200px;
+    
 }
 .hero-text {
     position: relative;
     z-index: 3 !important;
+    padding-bottom: 20px;
 }
 .hero-wrap h1 {
     letter-spacing: 5px;
-    margin-bottom: 30px;
 
 }
 
 .hero-wrap .lead {
     letter-spacing: 2px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     max-width: 650px; 
 }
 
@@ -559,9 +513,9 @@ header {
 }
 
 .iphone img {
-    margin-right: -40px;
+    margin-right: -60px;
     float: right;
-    width: 300px;
+    width: 500px;
     display: inline-block;
 }
 
@@ -615,20 +569,27 @@ section#util h2 {
 section#util .tagline {
     color: #fff;
 }
+.icon-text {
+    padding-left: 70px;
+}
+section#util .icon-text ul li {
+    color: #fff;
+}
 
-section#util .icon-text p {
+section#util .icon-text ul li p {
     color: #fff;
     letter-spacing: 1.5px;
     font-size: 15px;
 }
-
-
 section#util .about-overlay {
     background: rgba(37, 40, 49, 0.8) ;
 }
 
 section#util {
-    background: transparent;
+    background-image: url('../images/features-bg.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top center;
     color: #fff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -975,7 +936,10 @@ section#download .tagline {
 }
 
 section#download {
-    background: transparent;
+    background-image: url('../images/features-bg.png');
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
     color: #fff;
     text-align: center;
     -webkit-background-size: cover;

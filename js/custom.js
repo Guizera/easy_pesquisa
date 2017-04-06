@@ -41,7 +41,7 @@ $('a[href*=\\#]').on ('click', function(e) {
 
 $window.on ('scroll', function() {
 
-    if ($(this).scrollTop() > 300) {
+    if ($(this).scrollTop() > 100) {
 
         $('.menu-top').addClass('menu-shrink');
     } 
